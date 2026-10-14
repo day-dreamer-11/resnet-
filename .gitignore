@@ -1,0 +1,24 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- 系统文件 ----------
+.DS_Store
+Thumbs.db
+
+# ---------- 数据集：只保留压缩包 ----------
+# 解压后的大文件不纳入版本管理，README 中说明脚本会自动下载/解压
+data/mnist/raw/*-ubyte
+resnet/data/cifar10/cifar10_npy/
+resnet/data/cifar10/parquet/
+resnet/data/cifar10/part1
+resnet/data/cifar10/part2
+resnet/data/cifar10/part3
+resnet/data/cifar10/part4

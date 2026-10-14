@@ -1,0 +1,9 @@
+# Python 3.12 compatible.
+# torch / torchvision are installed separately (CUDA build) and are
+# deliberately NOT pinned here so `pip install -r requirements.txt`
+# will not overwrite the existing GPU build.
+numpy
+pandas
+matplotlib
+seaborn
+jupyter

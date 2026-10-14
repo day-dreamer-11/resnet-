@@ -1,0 +1,4 @@
+# 解压后的数据不纳入版本管理，只保留原始压缩包
+*
+!.gitignore
+!cifar-10-python.tar.gz

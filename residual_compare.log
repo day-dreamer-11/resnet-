@@ -1,0 +1,127 @@
+device: cuda
+
+=== with_residual (有残差) ===
+  epoch  1  train loss 0.1758  train acc 94.56%
+  epoch  2  train loss 0.0549  train acc 98.32%
+  epoch  3  train loss 0.0427  train acc 98.66%
+  epoch  4  train loss 0.0346  train acc 98.93%
+  epoch  5  train loss 0.0279  train acc 99.14%
+  epoch  6  train loss 0.0241  train acc 99.21%
+  epoch  7  train loss 0.0194  train acc 99.39%
+  epoch  8  train loss 0.0156  train acc 99.47%
+  epoch  9  train loss 0.0137  train acc 99.56%
+  epoch 10  train loss 0.0110  train acc 99.63%
+  epoch 11  train loss 0.0085  train acc 99.72%
+  epoch 12  train loss 0.0069  train acc 99.79%
+  epoch 13  train loss 0.0088  train acc 99.70%
+  epoch 14  train loss 0.0059  train acc 99.79%
+  epoch 15  train loss 0.0054  train acc 99.81%
+  epoch 16  train loss 0.0045  train acc 99.84%
+  epoch 17  train loss 0.0043  train acc 99.85%
+  epoch 18  train loss 0.0050  train acc 99.85%
+  epoch 19  train loss 0.0038  train acc 99.86%
+  epoch 20  train loss 0.0033  train acc 99.89%
+  epoch 21  train loss 0.0037  train acc 99.87%
+  epoch 22  train loss 0.0033  train acc 99.89%
+  epoch 23  train loss 0.0036  train acc 99.87%
+  epoch 24  train loss 0.0023  train acc 99.91%
+  epoch 25  train loss 0.0019  train acc 99.94%
+  epoch 26  train loss 0.0037  train acc 99.88%
+  epoch 27  train loss 0.0036  train acc 99.87%
+  epoch 28  train loss 0.0012  train acc 99.96%
+  epoch 29  train loss 0.0012  train acc 99.96%
+  epoch 30  train loss 0.0025  train acc 99.92%
+  epoch 31  train loss 0.0026  train acc 99.91%
+  epoch 32  train loss 0.0030  train acc 99.90%
+  epoch 33  train loss 0.0005  train acc 99.98%
+  epoch 34  train loss 0.0028  train acc 99.90%
+  epoch 35  train loss 0.0021  train acc 99.94%
+  epoch 36  train loss 0.0014  train acc 99.96%
+  epoch 37  train loss 0.0020  train acc 99.93%
+  epoch 38  train loss 0.0007  train acc 99.98%
+  epoch 39  train loss 0.0008  train acc 99.98%
+  epoch 40  train loss 0.0028  train acc 99.91%
+  epoch 41  train loss 0.0022  train acc 99.93%
+  epoch 42  train loss 0.0019  train acc 99.93%
+  epoch 43  train loss 0.0012  train acc 99.97%
+  epoch 44  train loss 0.0009  train acc 99.97%
+  epoch 45  train loss 0.0015  train acc 99.96%
+  epoch 46  train loss 0.0013  train acc 99.95%
+  epoch 47  train loss 0.0010  train acc 99.96%
+  epoch 48  train loss 0.0023  train acc 99.92%
+  epoch 49  train loss 0.0019  train acc 99.93%
+  epoch 50  train loss 0.0007  train acc 99.98%
+
+=== no_residual (去残差) ===
+  epoch  1  train loss 0.1304  train acc 95.96%
+  epoch  2  train loss 0.0420  train acc 98.70%
+  epoch  3  train loss 0.0289  train acc 99.09%
+  epoch  4  train loss 0.0219  train acc 99.28%
+  epoch  5  train loss 0.0160  train acc 99.45%
+  epoch  6  train loss 0.0136  train acc 99.56%
+  epoch  7  train loss 0.0102  train acc 99.66%
+  epoch  8  train loss 0.0084  train acc 99.69%
+  epoch  9  train loss 0.0075  train acc 99.72%
+  epoch 10  train loss 0.0067  train acc 99.77%
+  epoch 11  train loss 0.0047  train acc 99.85%
+  epoch 12  train loss 0.0058  train acc 99.81%
+  epoch 13  train loss 0.0044  train acc 99.86%
+  epoch 14  train loss 0.0041  train acc 99.86%
+  epoch 15  train loss 0.0042  train acc 99.87%
+  epoch 16  train loss 0.0029  train acc 99.91%
+  epoch 17  train loss 0.0036  train acc 99.87%
+  epoch 18  train loss 0.0035  train acc 99.89%
+  epoch 19  train loss 0.0028  train acc 99.92%
+  epoch 20  train loss 0.0033  train acc 99.89%
+  epoch 21  train loss 0.0024  train acc 99.93%
+  epoch 22  train loss 0.0022  train acc 99.92%
+  epoch 23  train loss 0.0032  train acc 99.90%
+  epoch 24  train loss 0.0019  train acc 99.93%
+  epoch 25  train loss 0.0025  train acc 99.92%
+  epoch 26  train loss 0.0023  train acc 99.93%
+  epoch 27  train loss 0.0026  train acc 99.91%
+  epoch 28  train loss 0.0020  train acc 99.93%
+  epoch 29  train loss 0.0013  train acc 99.95%
+  epoch 30  train loss 0.0017  train acc 99.95%
+  epoch 31  train loss 0.0028  train acc 99.92%
+  epoch 32  train loss 0.0015  train acc 99.95%
+  epoch 33  train loss 0.0029  train acc 99.91%
+  epoch 34  train loss 0.0015  train acc 99.95%
+  epoch 35  train loss 0.0022  train acc 99.93%
+  epoch 36  train loss 0.0014  train acc 99.97%
+  epoch 37  train loss 0.0004  train acc 99.99%
+  epoch 38  train loss 0.0011  train acc 99.97%
+  epoch 39  train loss 0.0038  train acc 99.89%
+  epoch 40  train loss 0.0009  train acc 99.98%
+  epoch 41  train loss 0.0003  train acc 99.99%
+  epoch 42  train loss 0.0008  train acc 99.98%
+  epoch 43  train loss 0.0050  train acc 99.88%
+  epoch 44  train loss 0.0024  train acc 99.93%
+  epoch 45  train loss 0.0012  train acc 99.96%
+  epoch 46  train loss 0.0029  train acc 99.94%
+  epoch 47  train loss 0.0004  train acc 99.99%
+  epoch 48  train loss 0.0000  train acc 100.00%
+  epoch 49  train loss 0.0000  train acc 100.00%
+  epoch 50  train loss 0.0000  train acc 100.00%
+
+=== 汇总 (50 epoch) ===
+           model   train loss  train acc   test acc
+   with_residual       0.0007     99.98%     98.95%
+     no_residual       0.0000    100.00%     99.05%
+C:\Users\Administrator\Desktop\杂文件\代码\claude\resnet复现论文\残差对比.py:102: UserWarning: Glyph 26377 (\N{CJK UNIFIED IDEOGRAPH-6709}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Administrator\Desktop\杂文件\代码\claude\resnet复现论文\残差对比.py:102: UserWarning: Glyph 27531 (\N{CJK UNIFIED IDEOGRAPH-6B8B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Administrator\Desktop\杂文件\代码\claude\resnet复现论文\残差对比.py:102: UserWarning: Glyph 24046 (\N{CJK UNIFIED IDEOGRAPH-5DEE}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Administrator\Desktop\杂文件\代码\claude\resnet复现论文\残差对比.py:102: UserWarning: Glyph 21435 (\N{CJK UNIFIED IDEOGRAPH-53BB}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Administrator\Desktop\杂文件\代码\claude\resnet复现论文\残差对比.py:103: UserWarning: Glyph 26377 (\N{CJK UNIFIED IDEOGRAPH-6709}) missing from font(s) DejaVu Sans.
+  plt.savefig("residual_compare.png", dpi=120)
+C:\Users\Administrator\Desktop\杂文件\代码\claude\resnet复现论文\残差对比.py:103: UserWarning: Glyph 27531 (\N{CJK UNIFIED IDEOGRAPH-6B8B}) missing from font(s) DejaVu Sans.
+  plt.savefig("residual_compare.png", dpi=120)
+C:\Users\Administrator\Desktop\杂文件\代码\claude\resnet复现论文\残差对比.py:103: UserWarning: Glyph 24046 (\N{CJK UNIFIED IDEOGRAPH-5DEE}) missing from font(s) DejaVu Sans.
+  plt.savefig("residual_compare.png", dpi=120)
+C:\Users\Administrator\Desktop\杂文件\代码\claude\resnet复现论文\残差对比.py:103: UserWarning: Glyph 21435 (\N{CJK UNIFIED IDEOGRAPH-53BB}) missing from font(s) DejaVu Sans.
+  plt.savefig("residual_compare.png", dpi=120)
+已保存: residual_compare.png
